@@ -15,7 +15,7 @@ for i in range(n):
     for j in range(n):
         matrix[i][j] = float(input( 'matrix['+str(i)+']['+ str(j)+']='))
 
-# Augmenting Identity Matrix of Order n
+# Creating Identity Matrix of Order n
 for i in range(n):        
     for j in range(n):
         if i == j:
